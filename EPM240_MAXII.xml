@@ -9,8 +9,6 @@
    <IOComponents>
       <!--User LED D1 on PIN_77, lights on logic 0 (active low)-->
       <LED Rect_x_y_w_h="386,35,18,12" Label="D1" OutputPinSet="PIN_77" ActivityLevel="Active low"/>
-      <!--Tactile button J6: FPGA pin NOT documented for this board; replace PIN_unassigned with the verified pin.-->
-      <Button Rect_x_y_w_h="96,247,34,34" Label="J6" InputPinSet="PIN_unassigned" ActivityLevel="Active low"/>
       <!--Header pins P1..P4: Label = chip pin number = silkscreen number-->
       <Pin Rect_x_y_w_h="93,1,11,11" Label="99" BiDirPinSet="PIN_99"/>
       <Pin Rect_x_y_w_h="93,21,11,11" Label="100" BiDirPinSet="PIN_100"/>
